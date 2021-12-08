@@ -1,0 +1,11 @@
+
+.header-opacity{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.header-picture{
+    background-image: url("../img/header.jpg");
+    background-position: center;
+    background-size:cover;
+
+    
+}
