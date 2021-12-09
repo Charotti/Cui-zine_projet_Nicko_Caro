@@ -48,7 +48,6 @@ header{
 }
 nav{
     border-bottom:2px solid rgba(236, 236, 236, .1);
-    
 }
 
 .navbar-brand{
@@ -72,5 +71,8 @@ p{
 
 .fab{
     color: #000;
+}
+.foot-contain{
+    background-color: #000000;
 }
 
