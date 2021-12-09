@@ -23,12 +23,13 @@
                 <nav class="navbar navbar-expand-lg bg-transparent">
                     <div class="container-fluid ">
                         <a class="navbar-brand text-white" href="#">Cui'zine</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
                             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <!-- Rajout navbar-dark pour menu burger -->
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse d-flex align-items-end" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
                                 <li class="nav-item">
                                     <a class="nav-link active text-white" aria-current="page" href="#">Accueil</a>
                                 </li>
@@ -63,40 +64,42 @@
     <section class="articles">
         <h2 class="p-4"><center>Derniers articles</center></h2>
         <div class="articles-content">
-            <div class="container">
+            <div class="container container-sm">
                 <div class="row row-cols-2">
-                    <div class="col-10">
+                    <!-- colonne qui prend tous les articles -->
+                    <div class="col-12 col-lg-10">
                        <div class="row row-cols-2">
-                            <div class="col-3">
+                            <div class="col-12 col-sm-3">
                                 <img class="art-img w-100" src="./img/articles/suzette/suzette-small.jpg" alt="photo crêpe suzette">
                             </div>
-                            <div class="col-7">
+                            <div class="col-12 col-sm-7">
                                 <h3>Chez  Suzette, le nouvelle crêprerie qui fait parler d'elle</h3>
                                 <p>La franchise "Chez Suvette" qui fait un cartons chez les bretons ouvre son premiers restaurant a paris dans le quartier latin.
                                  Antoine de Cui'zine a testé pour les saveurs sucrées, salées, au froment ou sarrazin !</p>
                             </div> 
                       </div>
                        <div class="row row-cols-2 my-4">
-                            <div class="col-3">
+                            <div class="col-12 col-sm-3">
                                 <img class="art-img w-100 " src="./img/articles/metro/metro-small.jpg" alt="Tarte aux framboises">
                             </div>
-                            <div class="col-7">
+                            <div class="col-12 col-sm-7">
                                 <h3>Le Métro dessert</h3>
                                 <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis</p>
                             </div> 
                       </div>
                        <div class="row row-cols-2">
-                            <div class="col-3">
+                            <div class="col-12 col-sm-3">
                                 <img class="art-img w-100" src="./img/articles/vitaly/vitaly-small.jpg" alt="Salade de pâtes">
                             </div>
-                            <div class="col-7">
+                            <div class="col-12 col-sm-7">
                                 <h3>Vitaly, le végan italien</h3>
                                 <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
                             </div> 
                       </div>
                     </div>
                     <!-- form -->
-                    <div class="col-2">
+                    <div class="col-2 d-none d-lg-block">
+                      <!-- Mettre d-none et d-lg-block pour que le formulaire ne s'affiche qu'en format lg -->
                         <div class="row row-cols-1">
                             <div class="col">
                                 <form>
@@ -140,30 +143,30 @@
     <div class="foot-contain container-fluid">
         <footer class="py-5">
           <div class="row">
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
               <h5 class="text-white">Categorie</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-white">Revues</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Recettes</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Découvertes</a></li>
+                <li class=" footer-link nav-item mb-2 "><a href="#" class=" nav-link p-0 text-white">Revues</a></li>
+                <li class=" footer-link nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Recettes</a></li>
+                <li class="footer-link nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Découvertes</a></li>
               </ul>
             </div>
       
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
               <h5 class="text-white">Archives</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">2019</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">2018</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">2017</a></li>
+                <li class="footer-link nav-item mb-2"><a href="#" class="nav-link p-0 text-white">2019</a></li>
+                <li class="footer-link nav-item mb-2"><a href="#" class="nav-link p-0 text-white">2018</a></li>
+                <li class="footer-link nav-item mb-2"><a href="#" class="nav-link p-0 text-white">2017</a></li>
               </ul>
             </div>
       
-            <div class="col-4 offset-1">
+            <div class="col-12 col-lg-3">
               <form>
                 <label for="exampleInputEmail1" class="mt-3 form-label text-white">Newsletter</label>
                 <div class="mail d-flex">
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email...">
-                  <button type="submit" class="btn btn-outline-light w-100">S'inscrire</button>
+                  <input type="email" class="form-control w-auto" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email...">
+                  <button type="submit" class="btn btn-outline-light w-auto">S'inscrire</button>
                 </div>
                 <div class="col">
                     <label for="exampleSocial" class="form-label text-white">Partager</label>

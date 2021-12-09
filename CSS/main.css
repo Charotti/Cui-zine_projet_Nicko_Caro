@@ -75,4 +75,14 @@ p{
 .foot-contain{
     background-color: #000000;
 }
+h5{
+    font-family: "courgette";
+}
+
+button{
+    font-family: "Oswald-Regular";
+}
+.footer-link{
+    text-decoration: underline;
+}
 
