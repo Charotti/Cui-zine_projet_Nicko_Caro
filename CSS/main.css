@@ -38,6 +38,16 @@
 }
 
 /* Header */
+
+.header-opacity{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.header-picture{
+    background-image: url("../img/header.jpg");
+    background-position: center;
+    background-size:cover;   
+}
+
 header{
     font-family: "Courgette";
 }
@@ -67,6 +77,15 @@ nav{
 p{
     font-family: "Oswald";
     
+}
+.form-label{
+    font-family: "Courgette";
+}
+
+
+.form-control{
+    font-family: "Oswald-Regular";
+    font-size: 12px;
 }
 
 .fab{
