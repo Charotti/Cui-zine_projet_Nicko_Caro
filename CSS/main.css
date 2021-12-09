@@ -1,5 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@font-face {
+    font-family:"Courgette" ;
+    src: url(../Fonts/Courgette-Regular.ttf);
+}
+@font-face {
+    font-family:"Oswald" ;
+    src: url(../Fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:"Oswald-Bold" ;
+    src: url(../Fonts/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family:"Oswald-ExtraLight" ;
+    src: url(../Fonts/Oswald-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family:"Oswald-Light" ;
+    src: url(../Fonts/Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family:"Oswald-Medium" ;
+    src: url(../Fonts/Oswald-Medium.ttf);
+}
+
+@font-face {
+    font-family:"Oswald-Regular" ;
+    src: url(../Fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Oswald-SemiBold" ;
+    src: url(../Fonts/Oswald-SemiBold.ttf);
+}
+
 /* Header */
 header{
     font-family: "Courgette";
@@ -7,7 +44,19 @@ header{
 
 .title-head{
     height: 300px;
-     
+    
+}
+nav{
+    border-bottom:2px solid rgba(236, 236, 236, .1);
+    
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.nav-item{
+    font-family: "Oswald-Bold";
 }
 
 .logo{
@@ -19,5 +68,9 @@ header{
 p{
     font-family: "Oswald";
     
+}
+
+.fab{
+    color: #000;
 }
 
